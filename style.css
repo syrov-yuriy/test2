@@ -1,0 +1,266 @@
+﻿* {
+    padding:0;
+    margin: 0;
+    font-family: 'NEXT ART', sans-serif;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #222830;
+}
+
+div {
+    border-color:aliceblue;
+    color:white;
+}
+
+div.head {
+    max-width: 1250px; height: 153px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.logo img {
+    width: 191px; height: 115px;
+}
+div.info {
+    max-width: auto; height: auto;
+    display:flex;
+    justify-content: space-between;
+}
+div.tex {
+    margin: 0 20px 0px 20px;
+    width: 160px;
+}
+div.headend {
+    display:flex;
+    
+}
+div.age {
+    font-size: 32px;
+    padding: 0px 22px 0px 20px;
+    font-weight: 500;
+}
+div.burger{
+    width: 47px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+}
+div.burgerline {
+    height: 4px; width: 46px;
+    border-radius: 2px;
+    background-color: white;
+    border-color: white;
+}
+
+div.small {
+    font-size: 12px;
+}
+div.notsmall {
+    font-size: 14px;
+    font-weight: 500;
+}
+.wix {
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+div.grey {
+    color:#BEBEBE;
+}
+
+div.container {
+    max-width: 1000px;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+div.main {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    
+}
+div.title {
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 48px;
+}
+div.text {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 20px;
+    padding: 1px 0px 20px 0px;
+    
+}
+div.textandbutton {
+    width: 414px; height: 425px;
+    display:flex;
+    align-items: center;
+}
+div.textblock {
+    margin-left: 20px;
+}
+div.photo img {
+    height: 420px;
+}
+div.space {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.ti {
+    font-size: 22px;
+    font-weight: 600;
+    width: 339px; height: 64px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #4C5061;
+    padding:16px;
+
+}
+
+div.razdelitel {
+    margin: 40px 30px 30px 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 640px; height: 6px;
+    border-radius: 20px;
+    background-color: #4C5061;
+}
+
+div.maintitle {
+    font-size: 55px;
+    font-weight: bold;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+div.line {
+    display:flex;
+    justify-content: space-around;
+}
+div.bigspace {
+    margin: 20px;
+}
+div.events {
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+}
+div.fishka img {
+    width: 330px; height: 330px;
+}
+div.fishkaa img {
+    width: 280px; height: 280px;
+}
+div.fishkaa {
+    height: 330px;
+    align-items: center;
+    display:flex;
+}
+div.textevent {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+}
+
+div.blocks {
+    margin-left: auto; margin-right: auto;
+    max-width: 798px;
+}
+div.block {
+    margin-top: 16px;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    max-width: 798px; height: 253px;
+    border-radius: 20px;
+    background-color: #4C5061; 
+}
+
+div.te {
+    padding: 0px 0px 10px 15px;
+    width: 437px;
+    
+}
+div.notbig {
+    font-size: 32px;
+    font-weight: 800;
+    line-height:33px
+}
+
+div.sale {
+    width: 997px; height: 378px;
+    border-radius: 37px;
+    background-color: #4E4F53;
+    display:flex;
+    align-items: center;
+}
+div.end {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.logoend img {
+    max-width: 180px;
+}
+div.salemain {
+    padding: 20px 120px 40px 50px;
+    height: auto;
+}
+div.saletext {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+div.saletexttwo {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20px;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+div.mainend {
+    max-width: 600px; height: auto;
+}
+div.firstmainend {
+    padding: 0px 20px 10px 20px;
+    line-height: 17px
+}
+div.secondmainend {
+    display:flex;
+    
+    justify-content: space-between;
+}
+div.finaltext {
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 260px;
+    margin-bottom: 25px;
+}
+div.ageend {
+    font-size: 92px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+div.fruitsandmaintitle {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px 0px 130px;
+}
+
+div.fruitsandmaintitle img {
+    max-width: 54px; max-height: 54px;
+    margin: 20px 0px 55px 0px;
+}
